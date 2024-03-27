@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--<suite name="Testing Therabody App - iOS suite" parallel="tests" thread-count="2">-->
+<suite name="Testing Therabody App">
+
+    <parameter name="platform" value="Android"></parameter>
+    <!-- test name="PairDevice" not in use -->
+    <!--<test name="PairDevice">
+            <parameter name="email" value="karishma.barot+paired@techholding.co"></parameter>
+
+        <classes>
+            <class name="testCases.LoginTCs"></class>
+            <class name="testCases.AddDeviceTCs"></class>
+        </classes>
+    </test>-->
+
+    <!-- test name="WaveSeries" is used to DEMO BLE flow -->
+    <!--<test name="WaveSeries">
+        <parameter name="email" value="karishma.barot+paired@techholding.co"></parameter>
+
+        <classes>
+            <class name="testCases.WaveSeriesSoloTCs"></class>
+            <class name="testCases.AddDeviceTCs"></class>
+            <class name="testCases.PrimeDeviceTCs"></class>
+        </classes>
+    </test>-->
+
+    <!-- test name="Non BLE Flows" is used to DEMO non-BLE flow -->
+    <test name="Non BLE Flows">
+        <parameter name="email" value="karishma.barot@techholding.co"></parameter>
+        <classes>
+            <class name="testCases.LoginTCs"></class>
+            <class name="testCases.TheragunMiniTCs"></class>
+            <class name="testCases.WaveSeriesOtherRollerTCs"></class>
+        </classes>
+    </test>
+</suite>
+        <!--<suite name="Testing Therabody App" parallel="tests" thread-count="2">
+            <test name="Non BLE Flows - iOS test suite">
+                <parameter name="platform" value="iOS"></parameter>
+
+                <parameter name="email" value="karishma.barot@techholding.co"></parameter>
+                <classes>
+                    <class name="testCases.LoginTCs"></class>
+                    <class name="testCases.TheragunMiniTCs"></class>
+                    <class name="testCases.WaveSeriesOtherRollerTCs"></class>
+                </classes>
+            </test>
+
+            <test name="Non BLE Flows - Android test suite">
+                <parameter name="platform" value="Android"></parameter>
+
+                <parameter name="email" value="karishma.barot@techholding.co"></parameter>
+                <classes>
+                    <class name="testCases.LoginTCs"></class>
+                    <class name="testCases.TheragunMiniTCs"></class>
+                    <class name="testCases.WaveSeriesOtherRollerTCs"></class>
+                </classes>
+            </test>
+        </suite>-->

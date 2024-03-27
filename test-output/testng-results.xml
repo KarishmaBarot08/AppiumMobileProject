@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T12:12:16 IST" name="Testing Therabody App" finished-at="2024-03-27T12:17:35 IST" duration-ms="319100">
+    <groups>
+    </groups>
+    <test started-at="2024-03-27T12:12:16 IST" name="Non BLE Flows" finished-at="2024-03-27T12:17:35 IST" duration-ms="319100">
+      <class name="testCases.TheragunMiniTCs">
+        <test-method is-config="true" signature="init()[pri:0, instance:testCases.TheragunMiniTCs@a8c1f44]" started-at="2024-03-27T12:13:47 IST" name="init" finished-at="2024-03-27T12:13:49 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testSelectDevice()[pri:1, instance:testCases.TheragunMiniTCs@a8c1f44]" started-at="2024-03-27T12:13:49 IST" name="testSelectDevice" finished-at="2024-03-27T12:14:01 IST" duration-ms="11925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectDevice -->
+        <test-method signature="testForgetDevice()[pri:5, instance:testCases.TheragunMiniTCs@a8c1f44]" started-at="2024-03-27T12:14:01 IST" name="testForgetDevice" finished-at="2024-03-27T12:14:23 IST" duration-ms="22398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgetDevice -->
+      </class> <!-- testCases.TheragunMiniTCs -->
+      <class name="testCases.LoginTCs">
+        <test-method is-config="true" signature="startAppiumServer(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTCs@53f48368]" started-at="2024-03-27T12:12:16 IST" name="startAppiumServer" finished-at="2024-03-27T12:13:22 IST" duration-ms="65514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karishma.barot@techholding.co]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppiumServer -->
+        <test-method is-config="true" signature="init()[pri:0, instance:testCases.LoginTCs@53f48368]" started-at="2024-03-27T12:13:22 IST" name="init" finished-at="2024-03-27T12:13:22 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testIntroScreen()[pri:1, instance:testCases.LoginTCs@53f48368]" started-at="2024-03-27T12:13:22 IST" name="testIntroScreen" finished-at="2024-03-27T12:13:26 IST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIntroScreen -->
+        <test-method signature="testLogin()[pri:2, instance:testCases.LoginTCs@53f48368]" started-at="2024-03-27T12:13:26 IST" name="testLogin" finished-at="2024-03-27T12:13:47 IST" duration-ms="20694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTCs@53f48368]" started-at="2024-03-27T12:17:29 IST" name="tearDown" finished-at="2024-03-27T12:17:35 IST" duration-ms="6124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTCs -->
+      <class name="testCases.WaveSeriesOtherRollerTCs">
+        <test-method is-config="true" signature="init()[pri:0, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:14:23 IST" name="init" finished-at="2024-03-27T12:14:26 IST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testPairOtherRollerDevice()[pri:1, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:14:26 IST" name="testPairOtherRollerDevice" finished-at="2024-03-27T12:14:34 IST" duration-ms="7898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPairOtherRollerDevice -->
+        <test-method signature="testSelectRoutine()[pri:2, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:14:34 IST" name="testSelectRoutine" finished-at="2024-03-27T12:14:37 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectRoutine -->
+        <test-method signature="testNotConnectedMode()[pri:5, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:14:37 IST" name="testNotConnectedMode" finished-at="2024-03-27T12:14:43 IST" duration-ms="6211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotConnectedMode -->
+        <test-method signature="testPreferencesOnProfile()[pri:6, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:14:43 IST" name="testPreferencesOnProfile" finished-at="2024-03-27T12:14:55 IST" duration-ms="11503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreferencesOnProfile -->
+        <test-method signature="testTipForNonBLE()[pri:7, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:14:55 IST" name="testTipForNonBLE" finished-at="2024-03-27T12:15:01 IST" duration-ms="6695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTipForNonBLE -->
+        <test-method signature="testRoutineCompletionForNonBLE()[pri:8, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:15:01 IST" name="testRoutineCompletionForNonBLE" finished-at="2024-03-27T12:16:00 IST" duration-ms="59004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoutineCompletionForNonBLE -->
+        <test-method signature="testSaveRoutineFromCompletionScreen()[pri:9, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:16:00 IST" name="testSaveRoutineFromCompletionScreen" finished-at="2024-03-27T12:16:06 IST" duration-ms="5120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveRoutineFromCompletionScreen -->
+        <test-method signature="testUnSaveRoutineFromRoutineCompletionScreen()[pri:10, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:16:06 IST" name="testUnSaveRoutineFromRoutineCompletionScreen" finished-at="2024-03-27T12:17:19 IST" duration-ms="73284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnSaveRoutineFromRoutineCompletionScreen -->
+        <test-method signature="testForgetDevice()[pri:11, instance:testCases.WaveSeriesOtherRollerTCs@150ab4ed]" started-at="2024-03-27T12:17:19 IST" name="testForgetDevice" finished-at="2024-03-27T12:17:29 IST" duration-ms="10092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgetDevice -->
+      </class> <!-- testCases.WaveSeriesOtherRollerTCs -->
+    </test> <!-- Non BLE Flows -->
+  </suite> <!-- Testing Therabody App -->
+</testng-results>

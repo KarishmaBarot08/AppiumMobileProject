@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Testing_Therabody_App" class="navigator-link">
+              <span class="suite-name border-passed">Testing Therabody App</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Testing_Therabody_App" class="navigator-link ">
+                    <span>testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Testing_Therabody_App" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Testing_Therabody_App" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Testing_Therabody_App" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Testing_Therabody_App" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Testing_Therabody_App" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Testing_Therabody_App" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing_Therabody_App" class="hide-methods passed suite-Testing_Therabody_App"> (hide)</a> <!-- hide-methods passed suite-Testing_Therabody_App -->
+                      <a href="#" panel-name="suite-Testing_Therabody_App" class="show-methods passed suite-Testing_Therabody_App"> (show)</a> <!-- show-methods passed suite-Testing_Therabody_App -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing_Therabody_App">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.WaveSeriesOtherRollerTCs" class="method navigator-link" hash-for-method="testBreakToggle">testBreakToggle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.TheragunMiniTCs" class="method navigator-link" hash-for-method="testForgetDevice">testForgetDevice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.WaveSeriesOtherRollerTCs" class="method navigator-link" hash-for-method="testForgetDevice">testForgetDevice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.LoginTCs" class="method navigator-link" hash-for-method="testIntroScreen">testIntroScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.LoginTCs" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.WaveSeriesOtherRollerTCs" class="method navigator-link" hash-for-method="testPairOtherRollerDevice">testPairOtherRollerDevice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.TheragunMiniTCs" class="method navigator-link" hash-for-method="testSaveRoutine">testSaveRoutine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.TheragunMiniTCs" class="method navigator-link" hash-for-method="testSelectDevice">testSelectDevice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.WaveSeriesOtherRollerTCs" class="method navigator-link" hash-for-method="testSelectRoutine">testSelectRoutine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.WaveSeriesOtherRollerTCs" class="method navigator-link" hash-for-method="testStretchingStep">testStretchingStep</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Therabody_App" title="testCases.TheragunMiniTCs" class="method navigator-link" hash-for-method="testVerifyPairedDevice">testVerifyPairedDevice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing_Therabody_App -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing_Therabody_App" class="panel Testing_Therabody_App">
+          <div class="suite-Testing_Therabody_App-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.WaveSeriesOtherRollerTCs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBreakToggle">
+                  </a> <!-- testBreakToggle -->
+                  <span class="method-name">testBreakToggle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgetDevice">
+                  </a> <!-- testForgetDevice -->
+                  <span class="method-name">testForgetDevice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPairOtherRollerDevice">
+                  </a> <!-- testPairOtherRollerDevice -->
+                  <span class="method-name">testPairOtherRollerDevice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectRoutine">
+                  </a> <!-- testSelectRoutine -->
+                  <span class="method-name">testSelectRoutine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStretchingStep">
+                  </a> <!-- testStretchingStep -->
+                  <span class="method-name">testStretchingStep</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Therabody_App-class-passed -->
+          <div class="suite-Testing_Therabody_App-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TheragunMiniTCs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgetDevice">
+                  </a> <!-- testForgetDevice -->
+                  <span class="method-name">testForgetDevice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveRoutine">
+                  </a> <!-- testSaveRoutine -->
+                  <span class="method-name">testSaveRoutine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectDevice">
+                  </a> <!-- testSelectDevice -->
+                  <span class="method-name">testSelectDevice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyPairedDevice">
+                  </a> <!-- testVerifyPairedDevice -->
+                  <span class="method-name">testVerifyPairedDevice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Therabody_App-class-passed -->
+          <div class="suite-Testing_Therabody_App-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginTCs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIntroScreen">
+                  </a> <!-- testIntroScreen -->
+                  <span class="method-name">testIntroScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Therabody_App-class-passed -->
+        </div> <!-- panel Testing_Therabody_App -->
+        <div panel-name="test-xml-Testing_Therabody_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/karishmabarot/IdeaProjects/TheraBodyAutomation/testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Testing Therabody App&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;platform&quot; value=&quot;iOS&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Non BLE Flows&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;karishma.barot@techholding.co&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginTCs&quot;/&gt;
+      &lt;class name=&quot;testCases.TheragunMiniTCs&quot;/&gt;
+      &lt;class name=&quot;testCases.WaveSeriesOtherRollerTCs&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Non BLE Flows --&gt;
+&lt;/suite&gt; &lt;!-- Testing Therabody App --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing_Therabody_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing Therabody App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Non BLE Flows (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing_Therabody_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing Therabody App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing_Therabody_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing Therabody App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing_Therabody_App');
+function tableData_Testing_Therabody_App() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testBreakToggle')
+data.setCell(0, 2, 'testCases.WaveSeriesOtherRollerTCs')
+data.setCell(0, 3, 82538);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testStretchingStep')
+data.setCell(1, 2, 'testCases.WaveSeriesOtherRollerTCs')
+data.setCell(1, 3, 68966);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testForgetDevice')
+data.setCell(2, 2, 'testCases.TheragunMiniTCs')
+data.setCell(2, 3, 43391);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPairOtherRollerDevice')
+data.setCell(3, 2, 'testCases.WaveSeriesOtherRollerTCs')
+data.setCell(3, 3, 34934);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testForgetDevice')
+data.setCell(4, 2, 'testCases.WaveSeriesOtherRollerTCs')
+data.setCell(4, 3, 29759);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSelectDevice')
+data.setCell(5, 2, 'testCases.TheragunMiniTCs')
+data.setCell(5, 3, 27743);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSaveRoutine')
+data.setCell(6, 2, 'testCases.TheragunMiniTCs')
+data.setCell(6, 3, 26158);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testVerifyPairedDevice')
+data.setCell(7, 2, 'testCases.TheragunMiniTCs')
+data.setCell(7, 3, 24966);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLogin')
+data.setCell(8, 2, 'testCases.LoginTCs')
+data.setCell(8, 3, 24071);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSelectRoutine')
+data.setCell(9, 2, 'testCases.WaveSeriesOtherRollerTCs')
+data.setCell(9, 3, 7874);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testIntroScreen')
+data.setCell(10, 2, 'testCases.LoginTCs')
+data.setCell(10, 3, 2918);
+window.suiteTableData['Testing_Therabody_App']= { tableData: data, tableDiv: 'times-div-Testing_Therabody_App'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Testing_Therabody_App">
+              </div> <!-- times-div-Testing_Therabody_App -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing_Therabody_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing Therabody App</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing_Therabody_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TheragunMiniTCs</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startAppiumServer</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.WaveSeriesOtherRollerTCs</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">startAppiumServer</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing_Therabody_App" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginTCs</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startAppiumServer(iOS, karishma.barot@techholding.co)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">28216 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testIntroScreen</span>
+                <span class="method-start">29956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">32986 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TheragunMiniTCs</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">57059 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSelectDevice</span>
+                <span class="method-start">61478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerifyPairedDevice</span>
+                <span class="method-start">89224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveRoutine</span>
+                <span class="method-start">114193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testForgetDevice</span>
+                <span class="method-start">140353 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.WaveSeriesOtherRollerTCs</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">183746 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPairOtherRollerDevice</span>
+                <span class="method-start">188323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectRoutine</span>
+                <span class="method-start">223259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStretchingStep</span>
+                <span class="method-start">231136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBreakToggle</span>
+                <span class="method-start">300103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testForgetDevice</span>
+                <span class="method-start">382644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginTCs</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">412405 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Therabody App]" guice-stage="DEVELOPMENT">
+  <parameter name="platform" value="Android"/>
+  <test thread-count="5" name="Non BLE Flows(failed)">
+    <parameter name="email" value="karishma.barot@techholding.co"/>
+    <classes>
+      <class name="testCases.LoginTCs">
+        <methods>
+          <include name="testIntroScreen"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="testLogin"/>
+          <include name="startAppiumServer"/>
+        </methods>
+      </class> <!-- testCases.LoginTCs -->
+      <class name="testCases.WaveSeriesOtherRollerTCs">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testUnSaveRoutineFromRoutineCompletionScreen"/>
+          <include name="testSelectRoutine"/>
+          <include name="testPreferencesOnProfile"/>
+          <include name="testForgetDevice"/>
+          <include name="testSaveRoutineFromCompletionScreen"/>
+          <include name="testPairOtherRollerDevice"/>
+          <include name="testTipForNonBLE"/>
+          <include name="testNotConnectedMode"/>
+          <include name="startAppiumServer"/>
+          <include name="testRoutineCompletionForNonBLE"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testCases.WaveSeriesOtherRollerTCs -->
+      <class name="testCases.TheragunMiniTCs">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSelectDevice"/>
+          <include name="init"/>
+          <include name="testForgetDevice"/>
+          <include name="startAppiumServer"/>
+        </methods>
+      </class> <!-- testCases.TheragunMiniTCs -->
+    </classes>
+  </test> <!-- Non BLE Flows(failed) -->
+</suite> <!-- Failed suite [Testing Therabody App] -->

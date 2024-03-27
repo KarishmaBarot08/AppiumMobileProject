@@ -1,1 +1,1 @@
-# AppiumMobileProject
+# TheraBodyAutomation-Appium

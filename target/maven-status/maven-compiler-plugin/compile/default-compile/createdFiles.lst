@@ -1,0 +1,16 @@
+pageFunctions/WaveSeriesSoloFunctions.class
+utilities/UtilityMethods.class
+pageFunctions/OnboardingFlowFunctions.class
+pageFunctions/TheragunMiniFunctions.class
+pageObjects/PrimeDeviceObjects.class
+pageObjects/WaveSeriesSoloObjects.class
+pageObjects/LoginObjects.class
+pageFunctions/AddDeviceFunctions.class
+pageFunctions/LoginFunctions.class
+pageObjects/TheragunMiniObjects.class
+pageObjects/WaveSeriesOtherRollerObjects.class
+pageObjects/AddDeviceObjects.class
+pageFunctions/WaveSeriesOtherRollerFunctions.class
+pageObjects/OnboardingFlowObjects.class
+base/Setup.class
+pageFunctions/PrimeDeviceFunctions.class
